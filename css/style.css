@@ -48,7 +48,7 @@ body {
   font-weight: 600;
 }
 
-.button-gradient button {
+.nav-button-gradient button {
   width: 122px;
   height: 40px;
   background-image: linear-gradient(to right, #326cff, #59ffb9);
@@ -60,7 +60,7 @@ body {
   position: relative;
 }
 
-.button-gradient button::before {
+.nav-button-gradient button::before {
   content: "";
   position: absolute;
   border-radius: 100px;
@@ -73,15 +73,15 @@ body {
   transition: opacity 0.7s;
 }
 
-.button-gradient button:hover::before {
+.nav-button-gradient button:hover::before {
   opacity: 1;
 }
 
-.button-gradient button > span {
+.nav-button-gradient button > span {
   position: relative;
 }
 
-/* .hero {
+.hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -90,7 +90,7 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-} */
+}
 
 .button-warning {
   background-color: #ffc73c;
@@ -99,8 +99,11 @@ body {
   border-radius: 100px;
   font-weight: 700;
   border: none;
+  box-shadow: 0px 18px 40px 12px #ffd36759;
+  transition: 0.3s;
 }
 
 .button-warning:hover {
   background-color: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px #ff9a3c40;
 }
