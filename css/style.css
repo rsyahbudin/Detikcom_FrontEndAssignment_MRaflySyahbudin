@@ -300,17 +300,53 @@ body {
   font-size: 4em !important;
 }
 
-/* .card-img-bottom {
-  overflow: hidden;
-} */
-
 .img-active div img {
-    cursor: pointer;
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
 }
 
 .img-active div.active img {
-    filter: none;
+  filter: none;
 }
 /* GALERI END */
+
+/* Berita Start */
+.btn-artikel {
+  width: 27%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(89, 255, 185, 0.6),
+    #326cff 60%
+  );
+}
+
+.btn-artikel a {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.btn-artikel .active {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  border: 1px solid #fff;
+}
+
+.btn-artikel a button {
+  border: none;
+  background: transparent;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+}
+/* Berita End */
