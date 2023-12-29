@@ -1,8 +1,8 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-} */
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -35,13 +35,15 @@ body {
   margin-top: -16%;
 }
 
-.navbar {
+.container-navbar {
   width: 100%;
   margin: 15px 150px 0px 150px;
   padding: 15px 30px;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-item {
