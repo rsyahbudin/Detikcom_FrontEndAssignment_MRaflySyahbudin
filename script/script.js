@@ -26,3 +26,45 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// artikel button function //
+var buttons = document.querySelectorAll(".btn-grup button");
+
+buttons.forEach(function (button) {
+  button.addEventListener("click", function (event) {
+    var links = document.querySelectorAll(".btn-grup a");
+
+    links.forEach(function (link) {
+      link.classList.remove("active");
+    });
+
+    var targetLink = this.parentElement;
+    targetLink.classList.add("active");
+  });
+});
+
+function toggle() {
+  var fotoElements = document.querySelectorAll(".foto");
+  var videoElements = document.querySelectorAll(".video");
+  var artikelButton = document.querySelector(".btn-grup .active");
+
+  if (artikelButton.innerText.toLowerCase() === "foto") {
+    fotoElements.forEach(function (foto) {
+      foto.style.display = "flex";
+    });
+  } else {
+    fotoElements.forEach(function (foto) {
+      foto.style.display = "none";
+    });
+  }
+
+  if (artikelButton.innerText.toLowerCase() === "video") {
+    videoElements.forEach(function (video) {
+      video.style.display = "flex";
+    });
+  } else {
+    videoElements.forEach(function (video) {
+      video.style.display = "none";
+    });
+  }
+}
