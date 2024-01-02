@@ -27,6 +27,11 @@
   .btn-grup {
     width: 40%;
   }
+
+  .logo-title img {
+    width: 367px;
+    height: 147px;
+  }
 }
 
 @media screen and (max-width: 922px) {
