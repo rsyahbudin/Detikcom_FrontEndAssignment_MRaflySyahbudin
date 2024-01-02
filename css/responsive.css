@@ -1,0 +1,56 @@
+@media screen and (max-width: 1270px) {
+  .container-nav {
+    margin: 20px 15px 0px 15px;
+    border-radius: 50px;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px !important;
+    height: 30px !important;
+    display: inline-block;
+    background: url("assets/navbar/Category.png") center center no-repeat !important;
+  }
+
+  .navbar-toggler {
+    border-radius: 50px !important;
+    background-color: #fff !important;
+  }
+
+  .close-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    padding: 5px;
+  }
+
+  .btn-grup {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  .btn-grup {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .hero-bg img {
+    display: none;
+  }
+
+  .hero-bg-mobile {
+    display: block;
+  }
+
+  .btn-grup {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn-grup {
+    width: 85%;
+  }
+}

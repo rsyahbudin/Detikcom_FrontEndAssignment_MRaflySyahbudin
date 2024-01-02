@@ -1,3 +1,20 @@
+// Navbar Toggle //
+const toggleButton = document.getElementById("toggleButton");
+const iconToggle = document.getElementById("iconToggle");
+
+toggleButton.addEventListener("click", function () {
+  if (iconToggle.classList.contains("navbar-toggler-icon")) {
+    // Ganti ke ikon close
+    iconToggle.classList.remove("navbar-toggler-icon");
+    iconToggle.innerHTML =
+      '<img src="assets/navbar/Close-Square.png" alt="Close Icon" class="close-icon">';
+  } else {
+    // Ganti kembali ke ikon semula
+    iconToggle.classList.add("navbar-toggler-icon");
+    iconToggle.innerHTML = '<img src="assets/navbar/Category.png" alt="Close Icon" class="close-icon">';
+  }
+});
+
 // image carousel function //
 document.addEventListener("DOMContentLoaded", function () {
   var carouselInstance = document.getElementById("carouselExample");

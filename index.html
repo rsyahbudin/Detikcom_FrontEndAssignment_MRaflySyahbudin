@@ -25,14 +25,17 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <!-- Hero Background Start -->
     <div class="hero-bg" id="home">
-      <img src="assets/Hero.png" alt="" />
+      <img src="assets/body/Hero.png" alt="" />
     </div>
     <div class="hero-bg-mobile" id="home">
-      <img src="asset/header/hero-mobile.png" alt="" />
+      <img src="assets/body/hero-mobile.png" alt="" />
     </div>
     <!-- Hero Background End -->
 
@@ -40,10 +43,11 @@
     <nav class="navbar fixed-top navbar-expand-lg z-3">
       <div class="container-navbar">
         <a class="navbar-brand" href="#home"
-          ><img src="assets/navbar-brand.png" alt="Bootstrap"
+          ><img src="assets/navbar/navbar-brand.png" alt="Logo"
         /></a>
         <button
           class="navbar-toggler"
+          id="toggleButton"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -51,7 +55,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" id="iconToggle"><img src="/assets/navbar/Category.png" alt="" /></span>
         </button>
         <div
           class="collapse navbar-collapse justify-content-end"
@@ -90,8 +94,8 @@
     <section id="home" class="hero">
       <div class="container mb-5 pb-5">
         <div class="row">
-          <div class="col-md-6">
-            <img src="assets/logo-event 2.png" alt="" />
+          <div class="col-6 logo-title">
+            <img src="assets/body/logo-event 2.png" alt="" />
           </div>
           <div class="mt-5">
             <a href="#tentangacara" class="btn button-warning btn-lg text-white"
@@ -107,11 +111,11 @@
     <!-- Tentang Acara Start -->
     <section id="tentangacara">
       <div class="container mt-5 p-5 gap-5">
-        <div class="row">
-          <div class="col-md-6 mb-3 mb-sm-0">
-            <div class="card card-map">
+        <div class="row justify-content-around">
+          <div class="col-12 col-xl-6 mb-3 mb-sm-0">
+            <div class="card card-map mb-3">
               <div class="inner ratio ratio-4x3">
-                <img src="assets/map 1.png" class="card-img-top" alt="..." />
+                <img src="assets/body/map 1.png" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
                 <h1 class="card-title fst-italic text-white title">
@@ -125,7 +129,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-12 col-xl-6">
             <div class="card card-kanan mb-4 maps">
               <div class="card-body">
                 <h1 class="card-title fst-italic text-white title-kanan">
@@ -149,17 +153,17 @@
               </div>
             </div>
             <div class="card card-kanan-3 mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <div class="inner ratio ratio-1x1">
+              <div class="row row-cols-2 g-0">
+                <div class="col-4">
+                  <div class="inner">
                     <img
-                      src="assets/ran.png"
+                      src="assets//body/ran.png"
                       class="img-fluid rounded-start"
                       alt="..."
                     />
                   </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-8">
                   <div class="card-body">
                     <h5 class="card-title fst-italic text-white title-kanan">
                       SPECIAL PERFORMANCE
@@ -174,7 +178,7 @@
             </div>
           </div>
           <div class="btn-about mt-5 mb-5">
-            <div class="button-daftar">
+            <div class="button-daftar text-center">
               <a href="https://event.detik.com/" target="_blank"
                 ><button class="text-white">DAFTAR SEKARANG</button></a
               >
@@ -195,52 +199,52 @@
         <div class="sup-parent">
           <div class="sup-slide">
             <div class="sup-item">
-              <img src="assets/logo1.svg" alt="" />
+              <img src="assets/partner/logo1.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo2.svg" alt="" />
+              <img src="assets/partner/logo2.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo3.svg" alt="" />
+              <img src="assets/partner/logo3.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo4.svg" alt="" />
+              <img src="assets/partner/logo4.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo5.svg" alt="" />
+              <img src="assets/partner/logo5.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo6.svg" alt="" />
+              <img src="assets/partner/logo6.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo7.png" alt="" />
+              <img src="assets/partner/logo7.png" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo8.svg" alt="" />
+              <img src="assets/partner/logo8.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo1.svg" alt="" />
+              <img src="assets/partner/logo1.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo2.svg" alt="" />
+              <img src="assets/partner/logo2.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo3.svg" alt="" />
+              <img src="assets/partner/logo3.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo4.svg" alt="" />
+              <img src="assets/partner/logo4.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo5.svg" alt="" />
+              <img src="assets/partner/logo5.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo6.svg" alt="" />
+              <img src="assets/partner/logo6.svg" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo7.png" alt="" />
+              <img src="assets/partner/logo7.png" alt="" />
             </div>
             <div class="sup-item">
-              <img src="assets/logo8.svg" alt="" />
+              <img src="assets/partner/logo8.svg" alt="" />
             </div>
           </div>
         </div>
@@ -257,16 +261,16 @@
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner ratio ratio-16x9">
             <div class="carousel-item active">
-              <img src="assets/slider-1.png" class="d-block w-100" alt="..." />
+              <img src="assets/galeri/slider-1.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="assets/slider-2.png" class="d-block w-100" alt="..." />
+              <img src="assets/galeri/slider-2.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="assets/slider-3.png" class="d-block w-100" alt="..." />
+              <img src="assets/galeri/slider-3.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img src="assets/slider-4.png" class="d-block w-100" alt="..." />
+              <img src="assets/galeri/slider-4.png" class="d-block w-100" alt="..." />
             </div>
           </div>
           <button
@@ -299,28 +303,28 @@
         <div class="img-active d-flex mt-3 gap-3 z-2">
           <div class="card-img-bottom active" data-bs-target="">
             <img
-              src="assets/slider-1.png"
+              src="assets/galeri/slider-1.png"
               class="d-block w-100 rounded-4 ratio ratio-16x9"
               alt="..."
             />
           </div>
           <div class="card-img-bottom">
             <img
-              src="assets/slider-2.png"
+              src="assets/galeri/slider-2.png"
               class="d-block w-100 rounded-4 ratio ratio-16x9"
               alt="..."
             />
           </div>
           <div class="card-img-bottom">
             <img
-              src="assets/slider-3.png"
+              src="assets/galeri/slider-3.png"
               class="d-block w-100 rounded-4 ratio ratio-16x9"
               alt="..."
             />
           </div>
           <div class="card-img-bottom">
             <img
-              src="assets/slider-4.png"
+              src="assets/galeri/slider-4.png"
               class="d-block w-100 rounded-4 ratio ratio-16x9"
               alt="..."
             />
@@ -352,17 +356,17 @@
               target="_blank"
             >
               <div class="inner">
-                <img src="assets/artikel1.png" class="card-img-top" alt="..." />
+                <img src="assets/artikel/artikel1.png" class="card-img-top" alt="..." />
               </div>
               <div class="foto">
                 <div class="img-foto">
-                  <img src="assets/Camera.png" alt="camera" />
+                  <img src="assets/artikel/Camera.png" alt="camera" />
                 </div>
                 <p>5 Foto</p>
               </div>
               <div class="video">
                 <div class="img-video">
-                  <img src="assets/Play.png" alt="video" />
+                  <img src="assets/artikel/Play.png" alt="video" />
                 </div>
                 <p>01:45</p>
               </div>
@@ -382,17 +386,17 @@
           <div class="col">
             <div class="card border-0 item-hover">
               <div class="inner">
-                <img src="assets/artikel2.png" class="card-img-top" alt="..." />
+                <img src="assets/artikel/artikel2.png" class="card-img-top" alt="..." />
               </div>
               <div class="foto">
                 <div class="img-foto">
-                  <img src="assets/Camera.png" alt="" />
+                  <img src="assets/artikel/Camera.png" alt="" />
                 </div>
                 <p>5 Foto</p>
               </div>
               <div class="video">
                 <div class="img-video">
-                  <img src="assets/Play.png" alt="" />
+                  <img src="assets/artikel/Play.png" alt="" />
                 </div>
                 <p>01:45</p>
               </div>
@@ -412,17 +416,17 @@
           <div class="col">
             <div class="card border-0 item-hover">
               <div class="inner">
-                <img src="assets/artikel3.png" class="card-img-top" alt="..." />
+                <img src="assets/artikel/artikel3.png" class="card-img-top" alt="..." />
               </div>
               <div class="foto">
                 <div class="img-foto">
-                  <img src="assets/Camera.png" alt="" />
+                  <img src="assets/artikel/Camera.png" alt="" />
                 </div>
                 <p>5 Foto</p>
               </div>
               <div class="video">
                 <div class="img-video">
-                  <img src="assets/Play.png" alt="" />
+                  <img src="assets/artikel/Play.png" alt="" />
                 </div>
                 <p>01:45</p>
               </div>
@@ -441,17 +445,17 @@
           <div class="col">
             <div class="card border-0 item-hover">
               <div class="inner">
-                <img src="assets/artikel4.png" class="card-img-top" alt="..." />
+                <img src="assets/artikel/artikel4.png" class="card-img-top" alt="..." />
               </div>
               <div class="foto">
                 <div class="img-foto">
-                  <img src="assets/Camera.png" alt="" />
+                  <img src="assets/artikel/Camera.png" alt="" />
                 </div>
                 <p>5 Foto</p>
               </div>
               <div class="video">
                 <div class="img-video">
-                  <img src="assets/Play.png" alt="" />
+                  <img src="assets/artikel/Play.png" alt="" />
                 </div>
                 <p>01:45</p>
               </div>
@@ -471,17 +475,17 @@
           <div class="col">
             <div class="card border-0 item-hover">
               <div class="inner">
-                <img src="assets/artikel5.png" class="card-img-top" alt="..." />
+                <img src="assets/artikel/artikel5.png" class="card-img-top" alt="..." />
               </div>
               <div class="foto">
                 <div class="img-foto">
-                  <img src="assets/Camera.png" alt="" />
+                  <img src="assets/artikel/Camera.png" alt="" />
                 </div>
                 <p>5 Foto</p>
               </div>
               <div class="video">
                 <div class="img-video">
-                  <img src="assets/Play.png" alt="" />
+                  <img src="assets/artikel/Play.png" alt="" />
                 </div>
                 <p>01:45</p>
               </div>
@@ -500,17 +504,17 @@
           <div class="col">
             <div class="card border-0 item-hover">
               <div class="inner">
-                <img src="assets/artikel6.png" class="card-img-top" alt="..." />
+                <img src="assets/artikel/artikel6.png" class="card-img-top" alt="..." />
               </div>
               <div class="foto">
                 <div class="img-foto">
-                  <img src="assets/Camera.png" alt="" />
+                  <img src="assets/artikel/Camera.png" alt="" />
                 </div>
                 <p>5 Foto</p>
               </div>
               <div class="video">
                 <div class="img-video">
-                  <img src="assets/Play.png" alt="" />
+                  <img src="assets/artikel/Play.png" alt="" />
                 </div>
                 <p>01:45</p>
               </div>
